@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\GamePCH.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Game.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Mesh\Mesh.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\GameObjects\GameObject.cpp">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\GameObjects\Player.cpp">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\GameObjects\PlayerController.cpp">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Mesh\Texture.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Mesh\MeshShapes.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\ResourceManager.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Scene.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\ImGuiManager.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Mesh\Material.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\GameObjects\CameraObject.cpp">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Mesh\OBJLoader.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Helpers\cJSONHelpers.cpp">
+      <Filter>Source\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\SceneSample\SceneSample.cpp">
+      <Filter>Source\SceneSample</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Physics\BulletManager.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScene1.cpp">
+      <Filter>Source\BulletScene1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Physics\MyMotionState.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\LightSampleScene\LightSampleScene.cpp">
+      <Filter>Source\LightSampleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScene_Ground.cpp">
+      <Filter>Source\BulletScene1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScenePlayer.cpp">
+      <Filter>Source\BulletScene1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\BulletScene1\ThirdP_Camera.cpp">
+      <Filter>Source\BulletScene1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScene_Telepoter.cpp">
+      <Filter>Source\BulletScene1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\LightSampleScene\LightScene_UniformColorOBJ.cpp">
+      <Filter>Source\LightSampleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\FBODefinition\FBODefinition.cpp">
+      <Filter>Source\FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\SoundChannel.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\SoundObject.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\SoundPlayer.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\VoiceCallback.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\WaveLoader.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\SoundCue.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\RandomWeightedCue.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\ShuffleAudioCue.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\TweenFuncs.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\GameObjects\TweenObject.cpp">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\SceneManager.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\MainMenuScene\MainMenuScene.cpp">
+      <Filter>Source\MainMenuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\LevelChoiceScene\LevelChoiceScene.cpp">
+      <Filter>Source\LevelChoiceScene</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\PauseScene\PauseScene.cpp">
+      <Filter>Source\PauseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\OptionScene\OptionScene.cpp">
+      <Filter>Source\OptionScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GamePCH.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Game.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\Mesh.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GameObjects\GameObject.h">
+      <Filter>Source\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GameObjects\Player.h">
+      <Filter>Source\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GameObjects\PlayerController.h">
+      <Filter>Source\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\Texture.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\ResourceManager.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Scene.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\ImGuiManager.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\Material.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\ObjectPool.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GameObjects\CameraObject.h">
+      <Filter>Source\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Events\RemoveFromSceneEvent.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Events\GameEventTypes.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\OBJLoader.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\VertexFormat.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Helpers\cJSONHelpers.h">
+      <Filter>Source\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\SceneSample\SceneSample.h">
+      <Filter>Source\SceneSample</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Physics\BulletManager.h">
+      <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScene1.h">
+      <Filter>Source\BulletScene1</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Physics\MyMotionState.h">
+      <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\LightSampleScene\LightSampleScene.h">
+      <Filter>Source\LightSampleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScene_Ground.h">
+      <Filter>Source\BulletScene1</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScenePlayer.h">
+      <Filter>Source\BulletScene1</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\BulletScene1\ThirdP_Camera.h">
+      <Filter>Source\BulletScene1</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScene_Telepoter.h">
+      <Filter>Source\BulletScene1</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\LightInfo.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\LightManager.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\LightSampleScene\LightScene_UniformColorOBJ.h">
+      <Filter>Source\LightSampleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\FBODefinition\FBODefinition.h">
+      <Filter>Source\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\SoundChannel.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\SoundObject.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\SoundPlayer.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\VoiceCallback.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\WaveLoader.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\SoundCue.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\RandomWeightedCue.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\ShuffleAudioCue.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\TweenFuncs.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GameObjects\TweenObject.h">
+      <Filter>Source\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\SceneManager.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\MainMenuScene\MainMenuScene.h">
+      <Filter>Source\MainMenuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\LevelChoiceScene\LevelChoiceScene.h">
+      <Filter>Source\LevelChoiceScene</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\PauseScene\PauseScene.h">
+      <Filter>Source\PauseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\OptionScene\OptionScene.h">
+      <Filter>Source\OptionScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{c793aa77-1210-4e59-9925-4a71367b3b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{5d66ae9e-89b9-400f-a379-e5176b7b7f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\SceneRipple">
+      <UniqueIdentifier>{1d07ab39-c134-4e65-a4b0-01117f628aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\SceneFloatingStuff">
+      <UniqueIdentifier>{f1abda28-7d85-4c19-a7ec-70325822d9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Lighting">
+      <UniqueIdentifier>{09bc8fcc-54b3-47ed-9706-638aa7f0e90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9f74afd4-f513-4aaf-a6be-624326236288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{617175d8-08e5-4be8-82ec-e3f1163403f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh">
+      <UniqueIdentifier>{10a6275b-242b-42ae-b975-117a759fcea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameObjects">
+      <UniqueIdentifier>{09d079c9-e37f-46f2-82bd-ff6e2269bace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Events">
+      <UniqueIdentifier>{a1c38341-d980-4204-827e-32b2366bb9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Helpers">
+      <UniqueIdentifier>{af360339-39a8-492a-ab2a-86e1b74a66d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneSample">
+      <UniqueIdentifier>{fadfa2a5-ab84-497e-be26-1721e6f28cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics">
+      <UniqueIdentifier>{3d0ea59e-6b10-4a3d-be5a-18f351cdfc09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BulletScene1">
+      <UniqueIdentifier>{6aca7beb-17c7-4885-ae6d-c65de84af249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\LightSampleScene">
+      <UniqueIdentifier>{54148a85-c71e-42a3-86f0-7c02009f02af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FBO">
+      <UniqueIdentifier>{6b7ee18c-3c06-44c4-a257-bb82ab237e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Audio">
+      <UniqueIdentifier>{452ca0c1-5b99-4ed6-ad6e-b2256e1dc2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MainMenuScene">
+      <UniqueIdentifier>{10165719-6762-4a46-9050-197b97fb6ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\LevelChoiceScene">
+      <UniqueIdentifier>{9464caf2-50c4-4735-9c03-4a65cc257dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PauseScene">
+      <UniqueIdentifier>{c0cefa24-57bd-4ef1-89ce-7238b434231b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OptionScene">
+      <UniqueIdentifier>{d61936ed-e371-45b5-ab7e-5d081c7a0f53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Data\Shaders\Texture.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Shaders\Texture.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\SceneRipple\Ripple.frag">
+      <Filter>Data\SceneRipple</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\SceneRipple\Ripple.vert">
+      <Filter>Data\SceneRipple</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\SceneFloatingStuff\Water.frag">
+      <Filter>Data\SceneFloatingStuff</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\SceneFloatingStuff\Water.vert">
+      <Filter>Data\SceneFloatingStuff</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Lighting\Lighting.frag">
+      <Filter>Data\Lighting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Lighting\Lighting.vert">
+      <Filter>Data\Lighting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Lighting\UniformColor.frag">
+      <Filter>Data\Lighting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Lighting\UniformColor.vert">
+      <Filter>Data\Lighting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Lighting\Cubemap.frag">
+      <Filter>Data\Lighting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Lighting\Cubemap.vert">
+      <Filter>Data\Lighting</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Shaders\GreyScale.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Shaders\GreyScale.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Shaders\Skybox.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Shaders\Skybox.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{04735107-3ecb-4bb0-986f-ab19fcf6073a}</ItemsProjectGuid>
+    <ItemsProjectName>Game-Shared</ItemsProjectName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\RandomWeightedCue.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\ShuffleAudioCue.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\SoundChannel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\SoundCue.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\SoundObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\SoundPlayer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\VoiceCallback.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Audio\WaveLoader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScene_Telepoter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\BulletScene1\ThirdP_Camera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScene1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScenePlayer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScene_Ground.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Events\GameEventTypes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Events\RemoveFromSceneEvent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\FBODefinition\FBODefinition.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GameObjects\CameraObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GameObjects\GameObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GameObjects\Player.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GameObjects\PlayerController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GameObjects\TweenObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GamePCH.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Game.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\ImGuiManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\ResourceManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Scene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\ObjectPool.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\SceneManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\TweenFuncs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Helpers\cJSONHelpers.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\LevelChoiceScene\LevelChoiceScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\LightSampleScene\LightSampleScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\LightSampleScene\LightScene_UniformColorOBJ.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\MainMenuScene\MainMenuScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\LightInfo.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\LightManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\Material.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\Mesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\OBJLoader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\Texture.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Mesh\VertexFormat.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\OptionScene\OptionScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\PauseScene\PauseScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Physics\BulletManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Physics\MyMotionState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\SceneSample\SceneSample.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\RandomWeightedCue.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\ShuffleAudioCue.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\SoundChannel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\SoundCue.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\SoundObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\SoundPlayer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\VoiceCallback.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Audio\WaveLoader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScene_Telepoter.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\BulletScene1\ThirdP_Camera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScene1.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScenePlayer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\BulletScene1\BulletScene_Ground.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\FBODefinition\FBODefinition.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\GameObjects\CameraObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\GameObjects\GameObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\GameObjects\Player.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\GameObjects\PlayerController.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\GameObjects\TweenObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\GamePCH.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Game.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\ImGuiManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\ResourceManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Scene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\SceneManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\TweenFuncs.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Helpers\cJSONHelpers.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\LevelChoiceScene\LevelChoiceScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\LightSampleScene\LightSampleScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\LightSampleScene\LightScene_UniformColorOBJ.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\MainMenuScene\MainMenuScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Mesh\Material.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Mesh\Mesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Mesh\MeshShapes.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Mesh\OBJLoader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Mesh\Texture.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\OptionScene\OptionScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\PauseScene\PauseScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Physics\BulletManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Physics\MyMotionState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\SceneSample\SceneSample.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Data\Lighting\Cubemap.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Data\Lighting\Cubemap.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Data\Lighting\Lighting.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Data\Lighting\Lighting.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Data\Lighting\UniformColor.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Data\Lighting\UniformColor.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Data\SceneFloatingStuff\Water.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Data\SceneFloatingStuff\Water.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Data\SceneRipple\Ripple.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Data\SceneRipple\Ripple.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Data\Shaders\GreyScale.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Data\Shaders\GreyScale.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Data\Shaders\Skybox.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Data\Shaders\Skybox.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Data\Shaders\Texture.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Data\Shaders\Texture.vert" />
+  </ItemGroup>
+</Project>
